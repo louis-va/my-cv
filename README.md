@@ -47,3 +47,11 @@ npm install
 ```sh
 npm run dev
 ```
+
+
+
+<!-- Acknowledgments -->
+# Acknowledgments
+
+* Credit to [Davio White](https://www.figma.com/community/file/1157037391202408689/resume-design-cv) for the design.
+* Thanks to [Remix Icons](https://remixicon.com/) for the icons.
