@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
-# Error-404
+# CV
 
-This project is designed to help you create a user-friendly and visually appealing 404 error page for your website.
+A resume to show my skills and the projects I worked on to potential employers.
 
 URL : View project live
 
@@ -9,9 +9,7 @@ URL : View project live
 
 [image]
 
-A 404 error page is the standard response code that a web server returns when a user attempts to access a URL that does not exist. 
-
-When users land on a page that doesn't exist or encounter a broken link, it's essential to provide them with a helpful and engaging error page to keep them on your site.
+A resume is a brief document summarizing a person's work experience, skills, education, and qualifications, used for job applications. Its purpose is to highlight an individual's suitability for a specific job and facilitate the hiring process.
 
 
 ## Built With
@@ -38,7 +36,7 @@ You need to have node and npm installed on your machine to run this project loca
 
 ### 1. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone git@github.com:louis-va/my-cv.git
 ```
 ### 2. Install NPM packages
 ```sh
