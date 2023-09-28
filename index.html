@@ -2,12 +2,114 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/favicon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Title</title>
+    <title>My CV</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="grid">
+        <section id="intro">
+          <img src="img/memoji.png" alt="Louis Van Aken" class="profile">
+          <div class="text">
+            <h1>Louis Van Aken</h1>
+            <p>Front-End Web Developer with a keen eye for design and a passion for creating visually appealing and user-friendly websites.</p>
+          </div>
+        </section>
+        <section id="experience">
+          <h2>Experience</h2>
+          <div class="item">
+            <h3 class="mb-1">Campaign Developer • Springbok</h3>
+            <p class="lighter mb-2">Sept. 2020 – July 2023</p>
+            <p>Implemented personalized marketing campaigns for global corporations, utilizing Salesforce Marketing Cloud and various other marketing platforms.</p>
+          </div>
+          <div class="item">
+            <h3 class="mb-1">Web master • Smartflats</h3>
+            <p class="lighter mb-2">Jan. 2019 – Sept. 2019</p>
+            <p>Led WordPress-based website creation, implemented SEO enhancements, and integrated Google Analytics for data-driven insights.</p>
+          </div>
+          <div class="item">
+            <h3 class="mb-1">Web designer • Freelance</h3>
+            <p class="lighter mb-2">Jan. 2019 – Present</p>
+            <p>Delivered high-quality websites for small businesses. Expertise in website design, development, and optimization, with a focus on helping clients establish a strong online presence.</p>
+          </div>
+        </section>
+        <section id="contact">
+          <h2 class="mb-6">Contact</h2>
+          <a href="mailto:vanakenlouis@gmail.com" class="link" title="Email">
+            <img src="img/mail-fill.png" alt="Email Icon">
+            vanakenlouis@gmail.com
+          </a>
+          <a href="tel:+32479811098" class="link" title="Phone">
+            <img src="img/phone-fill.png" alt="Phone Icon">
+            +32 479 81 10 98
+          </a>
+          <a href="https://github.com/louis-va" class="link" title="Github">
+            <img src="img/github-fill.png" alt="Github Icon">
+            Github
+          </a>
+          <a href="https://www.linkedin.com/in/louis-van-aken-7785a5177/" class="link" title="LinkedIn">
+            <img src="img/linkedin-box-fill.png" alt="LinkedIn Icon">
+            LinkedIn
+          </a>
+          <a href="louis-va.github.io/vcard/" class="link" title="Portfolio">
+            <img src="img/window-fill.png" alt="Website Icon">
+            Portfolio
+          </a>
+        </section>
+        <section id="skills">
+          <h2 class="mb-6">Skills</h2>
+          <div class="skill">
+            <div class="level"><div class="l-5"></div></div>
+            HTML
+          </div>
+          <div class="skill">
+            <div class="level"><div class="l-5"></div></div>
+            CSS
+          </div>
+          <div class="skill">
+            <div class="level"><div class="l-2"></div></div>
+            Javascript
+          </div>
+          <div class="skill">
+            <div class="level"><div class="l-3"></div></div>
+            Web design
+          </div>
+        </section>
+        <section id="education">
+          <h2 class="mb-4">Education</h2>
+          <div class="wrapper">
+            <div class="timeline"></div>
+            <div class="items">
+              <div class="item">
+                <div class="bubble"></div>
+                <div class="content">
+                  <p class="lighter">2023 – 2024</p>
+                  <h3 class="mb-1">Becode, <span class="lighter">Brussels</span></h3>
+                  <p>Junior web developer</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="bubble"></div>
+                <div class="content">
+                  <p class="lighter">2019 – 2020</p>
+                  <h3 class="mb-1">York st John University, <span class="lighter">York</span></h3>
+                  <p>Erasmus, Information technology</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="bubble"></div>
+                <div class="content">
+                  <p class="lighter">2017 – 2020</p>
+                  <h3 class="mb-1">EPHEC, <span class="lighter">Brussels</span></h3>
+                  <p>Bachelor's degree in e-business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
