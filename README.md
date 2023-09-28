@@ -3,11 +3,11 @@
 
 A resume to show my skills and the projects I worked on to potential employers.
 
-URL : View project live
+[View project live](https://louis-va.github.io/my-cv/)
 
 ## Description
 
-[image]
+![screenshot](img/screenshot.jpg)
 
 A resume is a brief document summarizing a person's work experience, skills, education, and qualifications, used for job applications. Its purpose is to highlight an individual's suitability for a specific job and facilitate the hiring process.
 
